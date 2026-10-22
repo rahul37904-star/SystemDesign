@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "HelloClient": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    },
+    "InternetDemo": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "InternetDemo"
+      }
+    }
+  }
+}
