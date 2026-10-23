@@ -66,3 +66,7 @@ The HTTP connection is upgraded and remains open as a **full-duplex** connection
 - WebSocket is a transport, not an application message format. Real applications define their own message structure, validation, and error handling (for example JSON messages with a `type` field).
 
 For production connections across the public internet, use `wss://`, authenticate and authorize requests, validate messages, and consider connection limits and timeouts.
+
+For a deeper explanation of L4 and L7 load balancing, and how load balancers
+affect REST APIs, WebSockets, and Server-Sent Events, see
+[Load balancing](./LOAD-BALANCING.md).
